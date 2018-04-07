@@ -1,20 +1,20 @@
 # Site settings
-title: 2zki's blog # 你的博客名字，可以定义修订
+title: 2zki # 你的博客名字，可以定义修订
 header-img: "img/green.jpg"
 tagline: "2zki"  
-description: "This is 2zki's blog."  # 一句话描述你的博客
-baseurl: "http://2zkiw.github.io"
-url: "http://2zkiw.github.io"  # 此处填写你的博客地址 
+description: "This is 2zki's blog"  # 一句话描述你的博客
+baseurl: ""
+url: "http://2zki"  # 此处填写你的博客地址 
 
 # About/contact
 owner: 
   name: "2zki" # 填写作者信息：名字
   email: 2zki333@gmail.com # 填写作者信息：邮箱
-  bio: "This is 2zki's blog." # 填写作者信息：博客描述
+  bio: "zZ" # 填写作者信息：博客描述
 
 # Data
-gavatar: img/green.jpg # 浏览器地址栏小图标，可自定义更改
-favicon: img/green.jpg # 浏览器地址栏小图标，可自定义更改
+gavatar: img/2zki.jpg # 浏览器地址栏小图标，可自定义更改
+favicon: img/2zki.jpg # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
 twitter_username: 
