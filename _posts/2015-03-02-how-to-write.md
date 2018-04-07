@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 这是一篇博客文章模板
-date: 2015-3-02
+title: Day 0
+date: 2018-04-06
 categories: blog
-tags: [标签一,标签二]
-description: 文章金句。
+tags: [1, 2]
+description: This is 2zki's blog.
 ---
 
-这里是博客正文。
+This is 2zki's blog.
 
 
 
