@@ -70,8 +70,6 @@ dx$ is divergent.
 <center>
     $\frac{dP}{dt}$ = kP    P(0) = $P_{0}$
 </center>
-
-
 <center>
     => P(t) = $P_{0}e^{kt}$
 </center>
@@ -80,10 +78,8 @@ dx$ is divergent.
 <center>
     $\frac{dP}{dt}$ = kP(1 - $\frac{P}{M}$)
 </center>
-
-
 <center>
-    => P(t) = $\frac_{M}{1 + Ae^{-kt}}$ where A = $\frac{M - P_{0}{P_{0}}}$
+    => P(t) = $\frac{M}{1 + Ae^{-kt}}$ where A = $\frac{M - P_{0}{P_{0}}$
 </center>
 
 - note that range of initial value determines shape of curve..
