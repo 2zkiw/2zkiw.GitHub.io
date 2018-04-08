@@ -22,11 +22,7 @@ $$\lim_{x \to +a}$$ f(x)
 
 $$\lim_{x \to +a}f(x)$$
 
-if
-{% raw %}
-  $$\lim_{x \to +a}f(x)$$
-{% endraw %}
-exists
+if$\displaystyle{\lim_{x \to +a}f(x)}$ exists
 
 $$\lim_{x to + a}$$
 f(x) exists
