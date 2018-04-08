@@ -23,8 +23,6 @@ f(x) $\ge$ g(x) $\ge$ 0 for x $\ge$ a.
 <center>
 a. If $\int_{a}^{\infty} f(x) dx$ is convergent, then $\int_{a}^{\infty} g(x) dx$ is convergent.
 </center>
-
-
 <center>
 b. If $\int_{a}^{\infty} g(x) dx$ is divergent, then $\int_{a}^{\infty} f(x)
 dx$ is divergent.
@@ -35,10 +33,8 @@ dx$ is divergent.
 - some result: 
 
 <center>
-    $\cdot$ $\int_{1}^{\infty} dx$ is convergent if p > 1 and divergent if p$\le$1
+    $\cdot$ $\int_{1}^{\infty}\frac{1}{x^{p}} dx$ is convergent if p > 1 and divergent if p$\le$1
 </center>
-
-
 <center>
     $\cdot$ 1 + x $\le$ $e^{x}$ for $\forall$ x $\in$ R
 </center>
@@ -56,7 +52,7 @@ dx$ is divergent.
 - **Euler's Method**
 
 <center>
-    Approimate values for the solution of the initial-value problem y' = F(x, y), $y(x_{0}$ = $y_{0}$, with step size h, at $x_{n}$ = $x_{n-1}$ + h, are
+    Approimate values for the solution of the initial-value problem y' = F(x, y), $y(x_{0})$ = $y_{0}$, with step size h, at $x_{n}$ = $x_{n-1}$ + h, are
 </center>
 
 
@@ -129,21 +125,21 @@ for every positive number M there is an integer N such that
     $\displaystyle{\lim_{n \to+{\infty}} r^{n}}$ = 0 if -1 < r < 1
 </center>
 <center>
-    $\displaystyle{\lim_{n \to+{\infty}} r^{n}}$ = 0 if r = 1
+    $\displaystyle{\lim_{n \to+{\infty}} r^{n}}$ = 1 if r = 1
 </center>
 
 # Series
 
 ### *Convergent/Divergent*
 
-- Given a series $\sum_{n=1}^{\infty}a_{n}$  = $a_{1}$ + $a_{2}$ + ..., let $S_{n}$ denot its nth partial sum:
+- Given a series $\sum_{n=1}^{\infty}a_{n}$  = $a_{1}$ + $a_{2}$ + ..., let $S_{n}$ denote its nth partial sum:
 <center>
     $S_{n}$ = $\sum_{i=1}^{n}a_{i}$ = $a_{1}$ + $a_{2}$ + ...+ $a_{n}$ 
 </center> 
 
-- If the sequence {$S_{n}$} is convergent and $\displaystyle{\lim_{n \to+{\infty}}S_{n}$ = S exists as a real number, then the series $\sum$$a_{n}$ is called convergent and $a_{1}$ + $a_{2}$ + ...+ $a_{n}$ + ... = S or $\sum_{n=1}^{\infty}a_{n}$ = S
+- If the sequence {$S_{n}$} is convergent and $\displaystyle{\lim_{n \to+{\infty}} S_{n}}$ = S exists as a real number, then the series $\sum$$a_{n}$ is called convergent and $a_{1}$ + $a_{2}$ + ...+ $a_{n}$ + ... = S or $\sum_{n=1}^{\infty}a_{n}$ = S
 
-- The number s is called the sum of the series.
+- The number S is called the sum of the series.
 
 - If the sequence {$S_{n}$} is divergent, then the series is called divergent.
 
@@ -160,7 +156,7 @@ for every positive number M there is an integer N such that
     If |r| $\ge$ 1, the geometric series is divergent.
 </center>
 
-- e.g. $\sum_{n=0}^{\infty}x^{n}$ = $\frac{1}{1-x}$, where |x| < 1
+- e.g. $\sum_{n=0}^{\infty}x^{n}$ = $\frac{1}{1-x}$, where $|x|$ < 1
 
 ### *Harmonic series*
 
@@ -172,17 +168,17 @@ for every positive number M there is an integer N such that
 
 ### *Test for Divergence* 
 
-- If $\displaystyle{\lim_{n \to+{\infty}}a_{n}$ does not exist or $\displaystyle{\lim_{n \to+{\infty}}a_{n}$ $\ne$ 0, then the seires $\sum_{n=1}^{\infty}$ is divergent.
+- If $\displaystyle{\lim_{n \to+{\infty}}a_{n}}$ does not exist or $\displaystyle{\lim_{n \to+{\infty}}a_{n}}$ $\ne$ 0, then the seires $\sum_{n=1}^{\infty}$ is divergent.
 
 - **Theorem**
 <center>
-    If the series $\sum_{n=1}^{\infty}a_{n}$ is convergent, then $\lim_{n \to+{\infty}}a_{n}$ = 0.
+    If the series $\sum_{n=1}^{\infty}a_{n}$ is convergent, then $\displaystyle{\lim_{n \to+{\infty}}a_{n}}$ = 0.
 </center>
-$\star$ The concerse of theorem is not true in general, if $\lim_{n \to+{\infty}}a_{n}$ = 0, we cannot conclude that $\sum$$a_{n}$ is convergent.(counter example: harmonic series)
+$\star$ The converse of theorem is not true in general, if $\displaystyle{\lim_{n \to+{\infty}}a_{n}}$ = 0, we cannot conclude that $\sum$$a_{n}$ is convergent.(counter example: harmonic series)
 
 ## Integral Test
 
-- Suppose f is a **confinuous**, **positive**, **decreasing** function on [1, $\infty$) and let $a_{n}$ = f(n). Then the series $\sum_{n=1}^{\infty}a_{n}$ is convergent <=> the improper integral $\int_{1}^{\infty}f(x)dx$ is convergent.
+- Suppose f is a **continuous**, **positive**, **decreasing** function on [1, $\infty$) and let $a_{n}$ = f(n). Then the series $\sum_{n=1}^{\infty}a_{n}$ is convergent <=> the improper integral $\int_{1}^{\infty}f(x)dx$ is convergent.
 
 - If $\int_{1}^{\infty}f(x)dx$ is convergent, then $\sum_{n=1}^{\infty}a_{n}$ is convergent.
 
@@ -205,7 +201,7 @@ $\star$ The concerse of theorem is not true in general, if $\lim_{n \to+{\infty}
 - Suppose that $\sum$$a_{n}$ and $\sum$$b_{n}$ are series with positive terms.
 
 - If 
-$$\lim_{n \to+{\infty}}\frac{a_{n}}{b_{n}}$$ = c
+$\displaystyle{\lim_{n \to+{\infty}}\frac{a_{n}}{b_{n}}}$ = c
 
 <center>
 where c is a finite number and c > 0, then either both series converges or both diverges.
@@ -218,10 +214,10 @@ where c is a finite number and c > 0, then either both series converges or both 
     $\sum_{n=1}^{\infty}b_{n}$ = $b_{1}$ - $b_{2}$ + $b_{3}$ - $b_{4}$ + $b_{5}$ - $b_{6}$ + ..., $b_{n}$ > 0 satisfies
 </center>
 <center>
-    a. $b_{n+1}$ $le$ $b_{n}$ for all n
+    a. $b_{n+1}$ $\leq$ $b_{n}$ for all n
 </center>
 <center>
-    b. $\lim_{n \to+{\infty}}b_{n}$ = 0
+    b. $\displaystyle{\lim_{n \to+{\infty}}b_{n}}$ = 0
 </center>
 <center>
     then the series is convergent
@@ -229,15 +225,15 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ### **Abosolute convergent**
 
-- A series $\sum$$a_{n}$ is absolutely convergent if the series of absolute value $\sum$|$a_{n}$| is convergent.
+- A series $\sum$$a_{n}$ is absolutely convergent if the series of absolute value $\sum$$|a_{n}|$ is convergent.
 
 ### *Alternating p-series*
 
-- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^{2}}$ = 1 - $\frac{1}{2^{2}}$ + $\frac{1}{3^{2}}$ - $\frac{1}{4^{2}}$ + ... is absolutely convergent because $\sum_{n=1}^{\infty}|\frac{(-1)^{n-1}}{n^{2}}|$ is a convergent p-series.
+- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^{2}}$ = 1 - $\frac{1}{2^{2}}$ + $\frac{1}{3^{2}}$ - $\frac{1}{4^{2}}$ + ... is absolutely convergent because $\sum_{n=1}^{\infty}$$|\frac{(-1)^{n-1}}{n^{2}}|$ is a convergent p-series.
 
 ### *Alternating harmonic series*
 
-- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}$ = 1 - $\frac{1}{2}$ + $\frac{1}{3}$ - $\frac{1}{4}$ + ... is convergent but it is not absolutely convergent because $\sum_{n=1}^{\infty}|\frac{(-1)^{n-1}}{n}|$ = $\sum_{n=1}^{\infty}\frac{1}{n}}$ = 1 + $\frac{1}{2}$ + $\frac{1}{3}$ + $\frac{1}{2}$4 + ... which is harmonic series(p-series with p = 1) and is divergent.
+- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}$ = 1 - $\frac{1}{2}$ + $\frac{1}{3}$ - $\frac{1}{4}$ + ... is convergent but it is not absolutely convergent because $\sum_{n=1}^{\infty}$$\mid$$\frac{(-1)^{n-1}}{n}$$\mid$ = $\sum_{n=1}^{\infty}$$\frac{1}{n}$ = 1 + $\frac{1}{2}$ + $\frac{1}{3}$ + $\frac{1}{4}$ + ... which is harmonic series(p-series with p = 1) and is divergent.
 
 ### **Conditionally convergent**
 
@@ -249,21 +245,21 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ## The Ratio Test
 
-- a. If $\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|$ = L < 1, then the series $\sum_{n=1}^{\infty}a_{n}$ is absolutely convergent (and therefore convergent).
+- a. If $\displaystyle{\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|}$ = L < 1, then the series $\sum_{n=1}^{\infty}a_{n}$ is absolutely convergent (and therefore convergent).
 
-- b. If $\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|$ = L > 1 or $\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|$ = $\infty$, then the series $\sum_{n=1}^{\infty}a_{n}$ is divergent.
+- b. If $\displaystyle{\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|}$ = L > 1 or $\displaystyle{lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|}$ = $\infty$, then the series $\sum_{n=1}^{\infty}a_{n}$ is divergent.
 
--c. If $\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|$ = 1, the Rato Test is inconclusive; that is, no conclusion can be drawn about the convergence or divergence of $\sum$$a_{n}$
+- c. If $\displaystyle{\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|}$ = 1, the Rato Test is inconclusive; that is, no conclusion can be drawn about the convergence or divergence of $\sum$$a_{n}$
 
 ### *Power Series*
 
-- For a given powre series $\sum_{n=0}^{\infty}c_{n}(x - a_^{n}$ there are only three possibilities:
+- For a given powre series $\sum_{n=0}^{\infty}$$c_{n}$$(x-a)^{n}$ there are only three possibilities:
 
 - a. The series converges only when x = a
 
 - b. The series converges for all x.
 
-- c. There is a positive number R such that the series converges if $\abs{x - a}$ < R and diverges if $\abs{x - a}$ > R.
+- c. There is a positive number R such that the series converges if $\mid$x-a$\mid$ < R and diverges if $\mid$x-a$\mid$ > R.
 
 - The number R is called the radius of convergence of the power series.
 
@@ -275,7 +271,7 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 - e.g. **Geometric series** 
 <center>
-    $\sum_{n=0}{\infty}x^{n}$
+    $\sum_{n=0}^{\infty}x^{n}$
 </center>
 <center>
     Radius of convergence: R = 1
@@ -307,7 +303,7 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 - **Maclaurin sries**: the special case a = 0
 
-- *Fact*: $\lim_{n \to+{\infty}}\frac{x^{n}}{n!}$ = 0 for every real number x because the series $\sum\frac{x^{n}}{n!}$ converges for all x and so its nth term approaches 0.
+- *Fact*: $\displaystyle{\lim_{n \to+{\infty}}\frac{x^{n}}{n!}}$ = 0 for every real number x because the series $\sum\frac{x^{n}}{n!}$ converges for all x and so its nth term approaches 0.
 
 # Approximate Integral
 
@@ -317,22 +313,22 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ### *Trapezoidal Rule*
 
-- $\int_{a}^{b}f(x)dx$ $\approx$ $T_{n}$ = $\frac{\Deltax}{2}$[f($x_{0}$) + 2f($x_{1}$) + 2f($x_{2}$) + ... + 2f($x_{n-1}$) + f($x_{n}$)] where $\Delta$x = #\frac{(b - a)}{n}$ and $x_{i}$ = a + i$\Delta$
+- $\int_{a}^{b}f(x)dx$ $\approx$ $T_{n}$ = $\frac{\Delta x}{2}$[f($x_{0}$) + 2f($x_{1}$) + 2f($x_{2}$) + ... + 2f($x_{n-1}$) + f($x_{n}$)] where $\Delta$ x = $\frac{(b - a)}{n}$ and $x_{i}$ = a + i $\Delta$ x
 
 ### *Error Bounds*
 
-- Suppose $\abs{f"(x)}$ $le$ K for a $\le$ x $\le$ b. If $E_{T}$ and $E_{M}$ are the errors in the Trapezoidal and Midpoint Rules, then 
+- Suppose $\mid$f"(x)$\mid$ $\le$ K for a $\le$ x $\le$ b. If $E_{T}$ and $E_{M}$ are the errors in the Trapezoidal and Midpoint Rules, then 
 <center>
-    $\abs{E_{T}}$ $\le$ $\frac{K(b-a)^{3}}{12n^{2}}$ and $\abs{E_{M}}$ $\le$ $\frac{K(b-a)^{3}}{24n^{2}}$
+    $\mid$${E_{T}}$$\mid$ $\le$ $\frac{K(b-a)^{3}}{12n^{2}}$ and $\mid$$E_{M}$$\mid$ $\le$ $\frac{K(b-a)^{3}}{24n^{2}}$
 </center>
 
 ### *Simpson's Rule*
 
-- $\int_{a}^{b}$f(x)dx $\approx$ $S_{n}$ = $\frac{\Deltax}{3}$[f($x_{0}$) + 4f($x_{1}$) + 2f($x_{2}$) + 4f($x_{3}) + ... + 2f($x_{n-2}$) + 4f($x_{n-1}) + f($x_{n}$)] where n is even and $\Deltax$ = $\frac{(b-a)}{n}$.
+- $\int_{a}^{b}$f(x)dx $\approx$ $S_{n}$ = $\frac{\Delta x}{3}$[f($x_{0}$) + 4f($x_{1}$) + 2f($x_{2}$) + 4f($x_{3}) + ... + 2f($x_{n-2}$) + 4f($x_{n-1}) + f($x_{n}$)] where n is even and $\Delta$ x = $\frac{(b-a)}{n}$.
 
 ### *Error Bounds*
 
-- Suppose $\abs{f^{(4)}(x)}$ $le$ K for a $\le$ x $\le$ b. If $E_{S}$ is the error involved in using Simpson's Rule, then 
+- Suppose $\mid$$f^{(4)}(x)$$\mid$ $\le$ K for a $\le$ x $\le$ b. If $E_{S}$ is the error involved in using Simpson's Rule, then 
 <center>
-    $\abs{E_{S}}$ $\le$ $\frac{K(b-a)^{5}}{180n^{4}}$
+    $\mid$$E_{S}$$\mid$ $\le$ $\frac{K(b-a)^{5}}{180n^{4}}$
 </center>
