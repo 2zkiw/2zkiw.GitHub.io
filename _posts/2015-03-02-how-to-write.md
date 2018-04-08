@@ -156,7 +156,7 @@ for every positive number M there is an integer N such that
     If |r| $\ge$ 1, the geometric series is divergent.
 </center>
 
-- e.g. $\sum_{n=0}^{\infty}x^{n}$ = $\frac{1}{1-x}$, where $|x|$ < 1
+- e.g. $\sum_{n=0}^{\infty}x^{n}$ = $\frac{1}{1-x}$, where $\mid$x$\mid$ < 1
 
 ### *Harmonic series*
 
@@ -225,11 +225,11 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ### **Abosolute convergent**
 
-- A series $\sum$ $a_{n}$ is absolutely convergent if the series of absolute value $\sum$ $\mid$$a_{n}$$\mid$ is convergent.
+- A series $\sum$ $a_{n}$ is absolutely convergent if the series of absolute value $\sum$ $\mid$ $a_{n}$ $\mid$ is convergent.
 
 ### *Alternating p-series*
 
-- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^{2}}$ = 1 - $\frac{1}{2^{2}}$ + $\frac{1}{3^{2}}$ - $\frac{1}{4^{2}}$ + ... is absolutely convergent because $\sum_{n=1}^{\infty}$ $\mid$$\frac{(-1)^{n-1}}{n^{2}}$$\mid$ is a convergent p-series.
+- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^{2}}$ = 1 - $\frac{1}{2^{2}}$ + $\frac{1}{3^{2}}$ - $\frac{1}{4^{2}}$ + ... is absolutely convergent because $\sum_{n=1}^{\infty}$ $\mid$ $\frac{(-1)^{n-1}}{n^{2}}$ $\mid$ is a convergent p-series.
 
 ### *Alternating harmonic series*
 
