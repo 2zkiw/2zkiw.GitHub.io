@@ -68,10 +68,10 @@ dx$ is divergent.
 
 - Model 1: The Law of Natural Growth
 <center>
-    $\frac{dP}{dt}$ = kP    P(0) = $P_{0}$
+    $\frac{dP}{dt}$ = kP, P(0) = $P_{0}$
 </center>
 <center>
-    => P(t) = $P_{0}e^{kt}$
+    $\Rightarrow$ P(t) = $P_{0}e^{kt}$
 </center>
 
 - Model 2: The Logistic Model
@@ -79,10 +79,57 @@ dx$ is divergent.
     $\frac{dP}{dt}$ = kP(1 - $\frac{P}{M}$)
 </center>
 <center>
-    => P(t) = $\frac{M}{1 + Ae^{-kt}}$ where A = $\frac{M - P_{0}{P_{0}}$
+    $\Rightarrow$ P(t) = $\frac{M}{1 + Ae^{-kt}}$ where A = $\frac{M - P_{0}}{P_{0}}$
 </center>
 
 - note that range of initial value determines shape of curve..
+
+# Sequence
+
+### *Limit*
+
+- A sequence {$a_{n}$} has the limit L and we write
+<center>
+    $\displaystyple{\lim_{n \to+{\infty}} a_{n}}$ = L  
+</center>
+<center>
+    or $a_{n}$ $\rightarrow$ L as n $\rightarrow\infty$
+</center>
+<center>
+    if for every $\varepsilon$ > 0 there is a corresponding integer N such that
+</center>
+<center>
+    if n > N, then |$a_{n}$ - L| < $\varepsilon$
+</center>
+
+- $displaystyle{\lim_{n \to+{\infty}} a_{n}}$ = $\infty$ means that
+for every positive number M there is an integer N such that
+<center>
+    if n > N, then $a_{n}$ > M
+</center>
+
+- **The Squeeze Theorem**
+<center>
+    if $a_{n} \le b_{n} \le c_{n}$ for n $\ge$ $n_{0}$ and
+    $displaystyle{\lim_{n \to+{\infty}} a_{n}}$ = $displaystyle{\lim_{n \to+{\infty}} c_{n}}$ = L,
+</center>
+<center>
+    then $displaystyle{\lim_{n \to+{\infty}} b_{n}}$ = L
+</center>
+
+- Theorem
+<center>
+    If $displaystyle{\lim_{n \to+{\infty}} |a_{n}|}$ = 0, then $displaystyle{\lim_{n \to+{\infty}} a_{n}}$ = 0
+</center>
+
+- The sequence {$r_{n}$} is convergent if -1 < r $\le$ 1 and divergent for all other values of r.
+<center>
+    $displaystyle{\lim_{n \to+{\infty}} r^{n}}$ = 0 if -1 < r < 1
+</center>
+<center>
+    $displaystyle{\lim_{n \to+{\infty}} r^{n}}$ = 0 if r = 1
+</center>
+
 
 
 
