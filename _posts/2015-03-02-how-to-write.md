@@ -16,8 +16,11 @@ a. f(a) is defined(i.e. a is in the domain of f)
 
 $$ \lim_{x \to +\infty}\frac{1}{x}$$
 
-$$ \lim_{x \to + a}$$
-f(x) exists
+b. $$ \lim_{x \to +\infty}\frac{1}{x}$$ f(x) exists
+
+$$\lim_{x \to +a}$$ f(x)
+
+$$\lim_{x \to +a}$$
 
 $$\lim_{x to + a}$$
 f(x) exists
