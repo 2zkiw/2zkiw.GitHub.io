@@ -26,7 +26,9 @@ f(x) $\ge$ g(x) $\ge$ 0 for x $\ge$ a.
 
 <center>
 a. If $\int_{a}^{\infty} f(x) dx$ is convergent, then $\int_{a}^{\infty} g(x) dx$ is convergent.
+</center>
 
+<center>
 b. If $\int_{a}^{\infty} g(x) dx$ is divergent, then $\int_{a}^{\infty} f(x)
 dx$ is divergent.
 </center>
