@@ -14,6 +14,8 @@ A function f is continuous at a number a if:
 
 a. f(a) is defined(i.e. a is in the domain of f)
 
+$$ \lim_{x \to +\infty}\frac{1}{x}$$
+
 $$\lim_{x\to + a}$$ f(x) exists
 
 c. $$\lim_{x\to + a}$$f(x) = f(a)
