@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Day 1: Some Calculus..
+title: "Day 1: Some Calculus.."
 date: 2018-04-07
 categories: Calculus
 tags: []
