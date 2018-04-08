@@ -17,5 +17,7 @@ description: Some Calculus..by B.Mu from 2018/04/07
 <img src="http://latex.codecogs.com/gif.latex?\lim_{0\rightarrow&space;\infty&space;}&space;e^x" title="\lim_{0\rightarrow \infty } e^x" />
 
 $$a^2 + b^2 = c^2$$
-$\frac{1}{1+sin(x)$
-$\int_{0}^{1}\sin&space;dx" title="\int_{0}^{1}\sin dx" /$
+
+$$\frac{1}{1+sin(x)$$
+
+\int_{0}^{1}\sin&space;dx" title="\int_{0}^{1}\sin dx" /
