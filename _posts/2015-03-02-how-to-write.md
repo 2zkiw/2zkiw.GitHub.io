@@ -7,7 +7,7 @@ tags: []
 description: "Some Calculus..by B.Mu from 2018/04/07"
 header-img: "img/black.jpg"
 ---
-![avatar](/img/2zki.png)
+![avatar](/temp/test.png)
 
 - Continuity:
 
