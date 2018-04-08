@@ -12,11 +12,11 @@ header-img: "img/black.jpg"
 
 A function f is continuous at a number a if:
 
-a. f(a) is defined(i.e. a is in the domain of f)
+(1) f(a) is defined(i.e. a is in the domain of f)
 
 $$ \lim_{x \to +\infty}\frac{1}{x}$$
 
-b. $$ \lim_{x \to +\infty}\frac{1}{x}$$ f(x) exists
+(2) $$ \lim_{x \to +\infty}\frac{1}{x}$$ f(x) exists
 
 $$\lim_{x \to +a}$$ f(x)
 
@@ -25,7 +25,7 @@ $$\lim_{x \to +a}$$
 $$\lim_{x to + a}$$
 f(x) exists
 
-c. $$\lim_{x\to + a}$$f(x) = f(a)
+(3) $$\lim_{x\to + a}$$f(x) = f(a)
 
         
 
