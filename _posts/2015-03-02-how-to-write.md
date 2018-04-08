@@ -9,3 +9,5 @@ description: Some Calculus..by B.Mu from 2018/04/07
 ![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
 
 <img src="http://latex.codecogs.com/gif.latex?\int_{0}^{1}\sin&space;dx" title="\int_{0}^{1}\sin dx" />
+
+<img src="http://latex.codecogs.com/gif.latex?\lim_{0\rightarrow&space;\infty&space;}&space;e^x" title="\lim_{0\rightarrow \infty } e^x" />
