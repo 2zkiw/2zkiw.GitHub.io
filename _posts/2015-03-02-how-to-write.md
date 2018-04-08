@@ -18,9 +18,13 @@ description: Some Calculus..by B.Mu from 2018/04/07
 
 $$a^2 + b^2 = c^2$$
 
+$$\frac{1}{x}$$
+
 $$ \lim_{x \to +\infty}\frac{1}{x}$$
 
 $$\lim_{x \to +\infty}\frac{1}{x}$$
+
+
 
 {% raw %}
 $$ \lim_{x \to +\infty}\frac{1}{x}$$
