@@ -7,6 +7,7 @@ tags: []
 description: "Some Calculus..by B.Mu from 2018/04/07"
 header-img: "img/black.jpg"
 ---
+img/2zki.png
 - Continuity:
 
     A function f is continuous at a number a if:
@@ -16,4 +17,6 @@ header-img: "img/black.jpg"
         b. $$\lim_{x\to + a}$$f(x) exists
 
         c. $$\lim_{x\to + a}$$f(x) = f(a)
+
+        
 
