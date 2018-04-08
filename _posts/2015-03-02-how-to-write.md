@@ -6,11 +6,5 @@ categories: Calculus
 tags: [1, 2]
 description: Some Calculus..by B.Mu from 2018/04/07
 ---
-<<<<<<< HEAD
-math
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-$$ \lim_{x \to +\infty}\frac{1}{x}$$
-=======
-
- $ \lim_{x \to +\infty}\frac{1}{x}$
->>>>>>> cfdc369ae94a10b126b8399b587436ef5df16e7c
+{<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+$$ \lim_{x \to +\infty}\frac{1}{x}$$}
