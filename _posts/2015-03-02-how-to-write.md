@@ -233,7 +233,7 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ### *Alternating harmonic series*
 
-- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}$ = 1 - $\frac{1}{2}$ + $\frac{1}{3}$ - $\frac{1}{4}$ + ... is convergent but it is not absolutely convergent because $\sum_{n=1}^{\infty}$ $\mid$$\frac{(-1)^{n-1}}{n}$$\mid$ = $\sum_{n=1}^{\infty}$ $\frac{1}{n}$ = 1 + $\frac{1}{2}$ + $\frac{1}{3}$ + $\frac{1}{4}$ + ... which is harmonic series(p-series with p = 1) and is divergent.
+- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}$ = 1 - $\frac{1}{2}$ + $\frac{1}{3}$ - $\frac{1}{4}$ + ... is convergent but it is not absolutely convergent because $\sum_{n=1}^{\infty}$ $\mid$ $\frac{(-1)^{n-1}}{n}$ $\mid$ = $\sum_{n=1}^{\infty}$ $\frac{1}{n}$ = 1 + $\frac{1}{2}$ + $\frac{1}{3}$ + $\frac{1}{4}$ + ... which is harmonic series(p-series with p = 1) and is divergent.
 
 ### **Conditionally convergent**
 
@@ -245,11 +245,11 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ## The Ratio Test
 
-- a. If $\displaystyle{\lim_{n \to+{\infty}}$ $\mid$\frac{a_{n+1}}{a_{n}}$$\mid$ = L < 1, then the series $\sum_{n=1}^{\infty}$ $a_{n}$ is absolutely convergent (and therefore convergent).
+- a. If $\displaystyle{\lim_{n \to+{\infty}}}$ $\mid$ $\frac{a_{n+1}}{a_{n}}$ $\mid$ = L < 1, then the series $\sum_{n=1}^{\infty}$ $a_{n}$ is absolutely convergent (and therefore convergent).
 
-- b. If $\displaystyle{\lim_{n \to+{\infty}}$ $\mid$\frac{a_{n+1}}{a_{n}}$$\mid$ = L > 1 or $\displaystyle{lim_{n \to+{\infty}}}$ $\mid$\frac{a_{n+1}}{a_{n$\mid$ = $\infty$, then the series $\sum_{n=1}^{\infty}a_{n}$ is divergent.
+- b. If $\displaystyle{\lim_{n \to+{\infty}}}$ $\mid$ $\frac{a_{n+1}}{a_{n}}$ $\mid$ = L > 1 or $\displaystyle{lim_{n \to+{\infty}}}$ $\mid$ $\frac{a_{n+1}}{a_{n}}$ $\mid$ = $\infty$, then the series $\sum_{n=1}^{\infty}$ $a_{n}$ is divergent.
 
-- c. If $\displaystyle{\lim_{n \to+{\infty}}$ $\mid$$\frac{a_{n+1}}{a_{n}}$$\mid$ = 1, the Rato Test is inconclusive; that is, no conclusion can be drawn about the convergence or divergence of $\sum$ $a_{n}$
+- c. If $\displaystyle{\lim_{n \to+{\infty}}}$ $\mid$ $\frac{a_{n+1}}{a_{n}}$ $\mid$ = 1, the Rato Test is inconclusive; that is, no conclusion can be drawn about the convergence or divergence of $\sum$ $a_{n}$
 
 ### *Power Series*
 
@@ -328,7 +328,7 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ### *Error Bounds*
 
-- Suppose $\mid$$f^{(4)}(x)$$\mid$ $\le$ K for a $\le$ x $\le$ b. If $E_{S}$ is the error involved in using Simpson's Rule, then 
+- Suppose $\mid$ $f^{(4)}(x)$ $\mid$ $\le$ K for a $\le$ x $\le$ b. If $E_{S}$ is the error involved in using Simpson's Rule, then 
 <center>
-    $\mid$$E_{S}$$\mid$ $\le$ $\frac{K(b-a)^{5}}{180n^{4}}$
+    $\mid$ $E_{S}$ $\mid$ $\le$ $\frac{K(b-a)^{5}}{180n^{4}}$
 </center>
