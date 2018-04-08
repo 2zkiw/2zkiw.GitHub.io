@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "About"
-description: "This is 2zki's blog. " 
+description: "This is B.M's blog. " 
 header-img: "img/blue.jpg"
 ---
 
-2zki is a lazy cat.
+B.M is a lazy cat.
 
 
 
