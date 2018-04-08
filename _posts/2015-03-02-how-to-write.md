@@ -12,7 +12,7 @@ header-img: "img/black.jpg"
 a. If $\displaystyle{\int_{a}^{t} f(x) \,dx}$ exists for
 every number t $\ge$ a, then
 
-$$\int_{a}^{\infty} f(x) \,dx} = \displaystyle{\lim_{t \to+\infty}\int_{a}^{t} f(x) \,dx}$$
+$$\int_{a}^{\infty} f(x) \,dx = \displaystyle{\lim_{t \to+\infty}\int_{a}^{t} f(x) \,dx}$$
 
 
         
