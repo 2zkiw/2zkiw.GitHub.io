@@ -7,4 +7,4 @@ tags: [1, 2]
 description: Some Calculus..by B.Mu from 2018/04/07
 ---
 ![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
-![](http://latex.codecogs.com/gif.latex?$$\lim_{x \to +\infty}\frac{1}{x}$$)
+![](http://latex.codecogs.com/gif.latex?\\lim_{x\to +\infty}\frac{1}{x})
