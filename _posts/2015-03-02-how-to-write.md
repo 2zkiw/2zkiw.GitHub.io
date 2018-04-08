@@ -11,7 +11,7 @@ description: Some Calculus..by B.Mu from 2018/04/07
 <img src="http://latex.codecogs.com/gif.latex?\int_{0}^{1}\sin&space;dx" title="\int_{0}^{1}\sin dx" />
 
 {% raw %}
-  $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+  $$a^2 + b^2 = c^2$$
 {% endraw %}
 
 <img src="http://latex.codecogs.com/gif.latex?\lim_{0\rightarrow&space;\infty&space;}&space;e^x" title="\lim_{0\rightarrow \infty } e^x" />
