@@ -190,15 +190,15 @@ $\star$ The converse of theorem is not true in general, if $\displaystyle{\lim_{
 
 ## Comparison Test
 
-- Suppost that $\sum$$a_{n}$ and $\sum$$b_{n}$ are series with positive terms.
+- Suppost that $\sum$ $a_{n}$ and $\sum$ $b_{n}$ are series with positive terms.
 
-- If $\sum$$b_{n}$ is convergent and $a_{n}$ $\le$ $b_{n}$ for all n, then $\sum$$a_{n}$ is also convergent.
+- If $\sum$ $b_{n}$ is convergent and $a_{n}$ $\le$ $b_{n}$ for all n, then $\sum$ $a_{n}$ is also convergent.
 
-- If $\sum$$b_{n}$ is divergent, and $a_{n}$ $\ge$ $b_{n}$ for all n, the $\sum$$a_{n}$ is also divergent.
+- If $\sum$ $b_{n}$ is divergent, and $a_{n}$ $\ge$ $b_{n}$ for all n, the $\sum$$a_{n}$ is also divergent.
 
 ## The Limit Comparison Test
 
-- Suppose that $\sum$$a_{n}$ and $\sum$$b_{n}$ are series with positive terms.
+- Suppose that $\sum$ $a_{n}$ and $\sum$ $b_{n}$ are series with positive terms.
 
 - If 
 $\displaystyle{\lim_{n \to+{\infty}}\frac{a_{n}}{b_{n}}}$ = c
@@ -225,15 +225,15 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ### **Abosolute convergent**
 
-- A series $\sum$$a_{n}$ is absolutely convergent if the series of absolute value $\sum$$|a_{n}|$ is convergent.
+- A series $\sum$ $a_{n}$ is absolutely convergent if the series of absolute value $\sum$ $\mid$$a_{n}$$\mid$ is convergent.
 
 ### *Alternating p-series*
 
-- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^{2}}$ = 1 - $\frac{1}{2^{2}}$ + $\frac{1}{3^{2}}$ - $\frac{1}{4^{2}}$ + ... is absolutely convergent because $\sum_{n=1}^{\infty}$$|\frac{(-1)^{n-1}}{n^{2}}|$ is a convergent p-series.
+- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n^{2}}$ = 1 - $\frac{1}{2^{2}}$ + $\frac{1}{3^{2}}$ - $\frac{1}{4^{2}}$ + ... is absolutely convergent because $\sum_{n=1}^{\infty}$ $\mid$$\frac{(-1)^{n-1}}{n^{2}}$$\mid$ is a convergent p-series.
 
 ### *Alternating harmonic series*
 
-- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}$ = 1 - $\frac{1}{2}$ + $\frac{1}{3}$ - $\frac{1}{4}$ + ... is convergent but it is not absolutely convergent because $\sum_{n=1}^{\infty}$$\mid$$\frac{(-1)^{n-1}}{n}$$\mid$ = $\sum_{n=1}^{\infty}$$\frac{1}{n}$ = 1 + $\frac{1}{2}$ + $\frac{1}{3}$ + $\frac{1}{4}$ + ... which is harmonic series(p-series with p = 1) and is divergent.
+- e.g. $\sum_{n=1}^{\infty}\frac{(-1)^{n-1}}{n}$ = 1 - $\frac{1}{2}$ + $\frac{1}{3}$ - $\frac{1}{4}$ + ... is convergent but it is not absolutely convergent because $\sum_{n=1}^{\infty}$ $\mid$$\frac{(-1)^{n-1}}{n}$$\mid$ = $\sum_{n=1}^{\infty}$ $\frac{1}{n}$ = 1 + $\frac{1}{2}$ + $\frac{1}{3}$ + $\frac{1}{4}$ + ... which is harmonic series(p-series with p = 1) and is divergent.
 
 ### **Conditionally convergent**
 
@@ -245,15 +245,15 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ## The Ratio Test
 
-- a. If $\displaystyle{\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|}$ = L < 1, then the series $\sum_{n=1}^{\infty}a_{n}$ is absolutely convergent (and therefore convergent).
+- a. If $\displaystyle{\lim_{n \to+{\infty}}$ $\mid$\frac{a_{n+1}}{a_{n}}$$\mid$ = L < 1, then the series $\sum_{n=1}^{\infty}$ $a_{n}$ is absolutely convergent (and therefore convergent).
 
-- b. If $\displaystyle{\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|}$ = L > 1 or $\displaystyle{lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|}$ = $\infty$, then the series $\sum_{n=1}^{\infty}a_{n}$ is divergent.
+- b. If $\displaystyle{\lim_{n \to+{\infty}}$ $\mid$\frac{a_{n+1}}{a_{n}}$$\mid$ = L > 1 or $\displaystyle{lim_{n \to+{\infty}}}$ $\mid$\frac{a_{n+1}}{a_{n$\mid$ = $\infty$, then the series $\sum_{n=1}^{\infty}a_{n}$ is divergent.
 
-- c. If $\displaystyle{\lim_{n \to+{\infty}}|\frac{a_{n+1}}{a_{n}}|}$ = 1, the Rato Test is inconclusive; that is, no conclusion can be drawn about the convergence or divergence of $\sum$$a_{n}$
+- c. If $\displaystyle{\lim_{n \to+{\infty}}$ $\mid$$\frac{a_{n+1}}{a_{n}}$$\mid$ = 1, the Rato Test is inconclusive; that is, no conclusion can be drawn about the convergence or divergence of $\sum$ $a_{n}$
 
 ### *Power Series*
 
-- For a given powre series $\sum_{n=0}^{\infty}$$c_{n}$$(x-a)^{n}$ there are only three possibilities:
+- For a given powre series $\sum_{n=0}^{\infty}$ $c_{n}$ $(x-a)^{n}$ there are only three possibilities:
 
 - a. The series converges only when x = a
 
