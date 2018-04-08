@@ -324,7 +324,7 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 ### *Simpson's Rule*
 
-- $\int_{a}^{b}$f(x)dx $\approx$ $S_{n}$ = $\frac{\Delta x}{3}$[f($x_{0}$) + 4f($x_{1}$) + 2f($x_{2}$) + 4f($x_{3}) + ... + 2f($x_{n-2}$) + 4f($x_{n-1}) + f($x_{n}$)] where n is even and $\Delta$ x = $\frac{(b-a)}{n}$.
+- $\int_{a}^{b}$f(x)dx $\approx$ $S_{n}$ = $\frac{\Delta x}{3}$[f($x_{0}$) + 4f($x_{1}$) + 2f($x_{2}$) + 4f($x_{3}$) + ... + 2f($x_{n-2}$) + 4f($x_{n-1}$) + f($x_{n}$)] where n is even and $\Delta$ x = $\frac{(b-a)}{n}$.
 
 ### *Error Bounds*
 
