@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Day 0
-date: 2018-04-06
-categories: blog
+title: Day 1
+date: 2018-04-07
+categories: Calculus
 tags: [1, 2]
-description: This is 2zki's blog.
+description: Some Calculus..by B.Mu from 2018/04/07
 ---
 
-This is 2zki's blog.
-
+temp/Some_Statistics.pdf
+temp/test.png
+$$ \lim_{x \to +\infty}\frac{1}{x}$$
 
 
 
