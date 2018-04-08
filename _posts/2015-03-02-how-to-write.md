@@ -18,6 +18,12 @@ description: Some Calculus..by B.Mu from 2018/04/07
 
 $$a^2 + b^2 = c^2$$
 
+{% raw %}
 $$\frac{1}{1+sin(x)$$
+{% endraw %}
+
+{% raw %}
+$\frac{1}{1+sin(x)$
+{% endraw %}
 
 \int_{0}^{1}\sin&space;dx" title="\int_{0}^{1}\sin dx" /
