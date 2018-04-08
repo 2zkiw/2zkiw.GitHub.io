@@ -23,7 +23,9 @@ $$\lim_{x \to +a}$$ f(x)
 $$\lim_{x \to +a}f(x)$$
 
 if
-$\lim_{x \to +a}f(x)$$
+{% raw %}
+  $$\lim_{x \to +a}f(x)$$
+{% endraw %}
 exists
 
 $$\lim_{x to + a}$$
