@@ -35,6 +35,11 @@ dx$ is divergent.
 <center>
     $\cdot$ $\int_{1}^{\infty}\frac{1}{x^{p}} dx$ is convergent if p > 1 and divergent if p$\le$1
 </center>
+
+<center>
+    $\cdot$ $\int_{0}^{\infty}\frac{1}{x^{p}} dx$ is convergent if p < 1 and divergent if p$\ge$1
+</center>
+
 <center>
     $\cdot$ 1 + x $\le$ $e^{x}$ for $\forall$ x $\in$ R
 </center>
@@ -211,7 +216,7 @@ where c is a finite number and c > 0, then either both series converges or both 
 
 - If the alternating series
 <center>
-    $\sum_{n=1}^{\infty}b_{n}$ = $b_{1}$ - $b_{2}$ + $b_{3}$ - $b_{4}$ + $b_{5}$ - $b_{6}$ + ..., $b_{n}$ > 0 satisfies
+    $\sum_{n=1}^{\infty} (-1)^{n-1} b_{n}$ = $b_{1}$ - $b_{2}$ + $b_{3}$ - $b_{4}$ + $b_{5}$ - $b_{6}$ + ..., $b_{n}$ > 0 satisfies
 </center>
 <center>
     a. $b_{n+1}$ $\leq$ $b_{n}$ for all n
@@ -332,3 +337,9 @@ where c is a finite number and c > 0, then either both series converges or both 
 <center>
     $\mid$ $E_{S}$ $\mid$ $\le$ $\frac{K(b-a)^{5}}{180n^{4}}$
 </center>
+
+# The Arc Length Formula
+- If f' is continuous on [a, b], then the length of the curve y = f(x), a $\leq$ x $\leq$ b, is 
+
+<center>
+	L = $\int_{a}^{b}$ $\sqrt{1 + [f'(x)]^{2}}$ dx
